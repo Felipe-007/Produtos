@@ -1,13 +1,34 @@
-import styles from '../../styles/Home.module.scss'
+import styles from '../../styles/Home.module.scss';
+import Header from './Header';
+import Nav from './Nav';
+import Products from './Products';
+import Cart from './Cart';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
+      <Header />
+
+      <Nav />
+
+      <Products />
+
       <div>
-        <img src="/logo.svg" alt="" width={190} height={60} />
-        <p>UTILIZE O LEITOR DE CÓDIGO DE BARRAS
-          PARA IDENTIFICAÇÃO DO PRODUTO
-          OU SELECIONE ABAIXO:</p>
+        <p>Suas compras</p>
+      </div>
+
+      <Cart />
+
+      <div>
+        <div>
+          <p>Cancelar</p>
+        </div>
+
+        <div>
+          <p>Valor toral: </p>
+        </div>
+
+        <button>Pagar</button>
       </div>
     </div>
   )
