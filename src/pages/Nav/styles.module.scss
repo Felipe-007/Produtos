@@ -1,6 +1,20 @@
 .table {
   width: 100%;
-  margin-bottom: 1rem;
-  background-color: transparent;
+  margin-bottom: 2em;
+  background-color: #FBB72D;
+  text-align: center;
+  padding: 15px 0;
+
+  th {
+    background-color: #5c5656;
+    background-clip: padding-box;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+
+  }
+}
+
+.tr1 {
   box-sizing: border-box;
 }
