@@ -1,20 +1,27 @@
-.table {
+.menuItems {
   width: 100%;
   margin-bottom: 2em;
   background-color: #FBB72D;
-  text-align: center;
   padding: 15px 0;
+  display: flex;
+  justify-content: space-evenly;
 
-  th {
-    background-color: #5c5656;
-    background-clip: padding-box;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-
+  li {
+    list-style-type: none;
   }
-}
+  
+  a {
+    background: #5c5656;
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
 
-.tr1 {
-  box-sizing: border-box;
+  a:hover {
+    color: #FBB72D;
+    font-size: 14px;
+    font-weight: bold;
+  }
 }
